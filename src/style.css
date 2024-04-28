@@ -144,6 +144,7 @@ margin-left: 12rem;
 	font-size: 1rem;
 	width: 100%;
 	height: .1rem;
+	color: white;
 	text-transform: none;
 }
 .login p a{
@@ -447,8 +448,9 @@ margin-left: 12rem;
 	height: 5rem;
 	
 }
-.reviwe .box p {
-width: 20rem;
+
+.reviwe .box p{
+	 width: 20rem;
 }
 
 /* ======Contact======= */
@@ -597,5 +599,85 @@ height: 2rem;
 	flex-direction: column;
 	margin: 1.5rem;
 }
+.login{
+	position: absolute;
+	right: 5%;
+	width: 30rem;
+	
+}
+.login .btn{
+	margin-left: 12rem;
+}
+.menu .box-contener .box{
+	width: 30%;
+}
+.reviwe .box-content .box{
+	width: 40%;
+	overflow: hidden;
+	
+}
+.reviwe .box p {
+	width: 15rem;
+	margin-bottom: 2rem;
+}
 
+
+}
+@media (max-width: 420px){
+	.header .searchform{
+		position: absolute;
+		right: 5%;
+		width:15rem ;
+	}
+	.login{
+		position: absolute;
+	right: 3%;
+	width: 15rem;
+	}
+	.login .input-box{
+		width: 90%;
+		margin-left: 0px;
+	}
+	.login p a{
+		margin-left: 0;
+	}
+	.login .btn{
+		margin-left: 0;
+		
+	}
+	.login .singup{
+		margin-left: 0;
+	}
+	.header .cart-contener{
+		width: 20rem;
+	}
+	.header .nav{
+		width: 20rem;
+	}
+	.Home .hero h3{
+		width: 15rem;
+		font-size: 2rem;
+	}
+	.Home .hero p{
+		font-size: .8rem;
+	}
+	.menu .box-contener .box{
+		width: 60%;
+	}
+	.reviwe .box-content .box{
+		width: 90%;
+	}
+	.contact .row{
+		display: inline-block;
+	}
+	.contact iframe{
+  width: 95%;
+	}
+	.footer .links{
+		display: flex;
+		flex-direction: column;
+	}
+	.footer .social{
+		gap: 1rem;
+	}
 }

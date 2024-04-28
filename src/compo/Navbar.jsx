@@ -5,6 +5,8 @@ import { FaDeleteLeft } from "react-icons/fa6";
 import{Cart} from '../data'
 
 function Navbar() {
+
+	
 	const searchref = useRef();
 	const searchshow = () =>{
 		searchref.current.classList.toggle("active");
@@ -83,6 +85,10 @@ function Navbar() {
 			<div className="content">
 				<h3>{item.name}</h3>
 				<div className="price">₹{item.price}/-</div>
+	             <div className="count">
+					<button > - </button> 
+					<button > + </button>
+				 </div>
 			</div>
 			</div>
 
